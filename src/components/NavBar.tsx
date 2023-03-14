@@ -20,7 +20,6 @@ const menuItems = [
         href: '/pricing'
     },
 ];
-
 export const NavBar = () => {
     return (
         <nav className={styles['menu-container']} >

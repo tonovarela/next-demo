@@ -1,5 +1,6 @@
-import { DarkLayout } from '@/components/layout/DarkLayout'
-import { MainLayout } from '@/components/layout/MainLayout'
+import { DarkLayout } from "../components/layout/DarkLayout"
+import { MainLayout } from "../components/layout/MainLayout"
+
 export default function AboutPage() {
   return (
     <>
@@ -20,7 +21,7 @@ export default function AboutPage() {
   )
 }
 
-AboutPage.getLayout = (page)=> {
+AboutPage.getLayout = (page:JSX.Element)=> {
   return (
     <MainLayout>
       <DarkLayout>

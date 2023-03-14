@@ -1,16 +1,12 @@
+import { MainLayout } from '../components/layout/MainLayout';
 
 
-import { MainLayout } from './../components/layout/MainLayout';
-
-
-
-export default function ContactPage() {
-  return (
-    
+export default function PricingPage() {
+  return (    
     <MainLayout>
        <>          
           <p className="title">
-            Contact Page
+        Pricing Page
           </p>
           <div>
             <a
