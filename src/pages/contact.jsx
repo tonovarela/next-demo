@@ -4,12 +4,12 @@ import { MainLayout } from './../components/layout/MainLayout';
 
 
 
-export default function Contact() {
+export default function ContactPage() {
   return (
     
     <MainLayout>
        <>          
-          <p>
+          <p className="title">
             Contact Page
           </p>
           <div>
